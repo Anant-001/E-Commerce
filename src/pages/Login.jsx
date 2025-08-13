@@ -6,7 +6,7 @@ import {
     GoogleAuthProvider,
     signInWithPopup,
 } from "firebase/auth";
-import loginImage from "/public/login-image.png"; // ensure the image is in `public/`
+import loginImage from "/public/Login-image.png"; // ensure the image is in `public/`
 import Footer from "../components/Footer";
 
 const Login = () => {
