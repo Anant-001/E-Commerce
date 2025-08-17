@@ -8,7 +8,7 @@ const ProductPromo = () => {
         title: "Wireless Headphones",
         price: 59.99,
         rating: 4.5,
-        thumbnail: "/public/BOOMBOX.png", // Make sure this image exists in your public/images folder
+        thumbnail: "/BOOMBOX.png", // Make sure this image exists in your public/images folder
     };
 
     // Countdown timer logic

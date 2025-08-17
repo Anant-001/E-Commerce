@@ -6,7 +6,6 @@ import {
     GoogleAuthProvider,
     signInWithPopup,
 } from "firebase/auth";
-import Header from "../components/Header.jsx";
 
 const SignUp = () => {
     const [email, setEmail] = useState("");
@@ -50,7 +49,7 @@ const SignUp = () => {
                 {/* Left Image */}
                 <div className="w-full md:w-1/2">
                     <img
-                        src="/public/Login-image.png"
+                        src="/Login-image.png"
                         alt="Cart and Phone"
                         className="w-full max-w-md mx-auto"
                     />

@@ -26,7 +26,7 @@ const About = () => {
                 {/* Image */}
                 <div className="flex-1">
                     <img
-                        src="/public/Side%20Image.png"
+                        src="/Side%20Image.png"
                         alt="About Us"
                         className="rounded-lg shadow-lg"
                     />
@@ -58,17 +58,17 @@ const About = () => {
                         {
                             name: "Tom Cruise",
                             title: "Founder & Chairman",
-                            image: "./public/Profile/Tom.png",
+                            image: "/Profile/Tom.png",
                         },
                         {
                             name: "Emma Watson",
                             title: "Managing Director",
-                            image: "./public/Profile/Emma.png",
+                            image: "/Profile/Emma.png",
                         },
                         {
                             name: "Will Smith",
                             title: "Product Designer",
-                            image: "./public/Profile/Will.png",
+                            image: "/Profile/Will.png",
                         },
                     ].map((member, index) => (
                         <div key={index} className="text-center">
